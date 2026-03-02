@@ -1,0 +1,22 @@
+/target
+Cargo.lock
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Local environment (contains signing identity)
+.env
+
+# Apple signing (contains device UDIDs and developer certificates)
+embedded.provisionprofile
+entitlements.plist
+
+# Claude Code local settings
+.claude/
+
+# Generation prompt (contains personal identity info)
+INITIAL_PROMPT.md
+
+# Diagnostic scripts
+check_keys.swift
