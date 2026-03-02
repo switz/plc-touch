@@ -33,19 +33,32 @@ Take sovereign control of your DID PLC identity by generating hardware-backed P-
 └───────────────────────────────────────────────┘
 ```
 
+## Install
+
+```bash
+brew install switz/tap/plc-touch
+```
+
+Then run `plc-touch` from your terminal.
+
 ## Requirements
 
 - macOS 13+ (Ventura or later)
+
+## Building from source
+
+<details>
+<summary>Development setup</summary>
+
+**Additional requirements:**
 - Rust toolchain
 - Apple Developer account (for Secure Enclave entitlements)
 - Provisioning profile with `keychain-access-groups` entitlement
 
-## Setup
-
 1. **Clone and configure:**
 
 ```bash
-git clone https://github.com/yourusername/plc-touch.git
+git clone https://github.com/switz/plc-touch.git
 cd plc-touch
 cp .env.example .env
 ```
@@ -75,6 +88,8 @@ TEAM_ID="XXXXXXXXXX"
 ```bash
 target/release/plc-touch.app/Contents/MacOS/plc-touch
 ```
+
+</details>
 
 ## Usage
 
