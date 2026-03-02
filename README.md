@@ -1,6 +1,8 @@
 # plc-touch
 
-> Named after the [Please Touch Museum](https://www.pleasetouchmuseum.org/) — because you should touch your identity.
+Please Touch. Secure enclave based keys for ATProto PLC rotation keys.
+
+> Named after the [Please Touch Museum](https://www.pleasetouchmuseum.org/)
 
 A Rust TUI for managing AT Protocol (Bluesky) `did:plc` rotation keys with macOS Secure Enclave and Touch ID.
 
