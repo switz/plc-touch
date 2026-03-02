@@ -145,7 +145,7 @@ pub fn generate_key(label: &str, syncable: bool) -> Result<EnclaveKey> {
                 CFString::wrap_under_get_rule(kSecAttrSynchronizable),
                 CFBoolean::true_value().as_CFType(),
             ));
-            // Use explicit access group so the key is findable across devices
+            // Explicit access group so the key is findable across devices
             attrs_pairs.push((
                 CFString::wrap_under_get_rule(kSecAttrAccessGroup),
                 CFString::new(keychain_access_group()).as_CFType(),

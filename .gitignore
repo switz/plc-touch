@@ -10,6 +10,7 @@ Cargo.lock
 
 # Apple signing (contains device UDIDs and developer certificates)
 embedded.provisionprofile
+release.provisionprofile
 entitlements.plist
 
 # Claude Code local settings
